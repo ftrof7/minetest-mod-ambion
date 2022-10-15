@@ -124,7 +124,7 @@ minetest.register_craft({
 minetest.register_tool("ambion:ambion_shovel", {
 	description = ("Ambion shovel"),
 	inventory_image = "ambion_shovel.png",
-	wield_image = "ambion_shovel.png^
+	wield_image = "ambion_shovel.png"
 	tool_capabilities = {
 		full_punch_interval = 1.0,
 		max_drop_level=1,
