@@ -1,0 +1,9 @@
+# textdomain: ambion
+Ambion=
+Ambion block=
+Ambion ore=
+Ambion lump=
+Ambion sword=
+Ambion axe=
+Ambion pickaxe=
+Ambion shovel=
