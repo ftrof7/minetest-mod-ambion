@@ -21,7 +21,9 @@ minetest.register_craft({
 
 minetest.register_node("ambion:ambion_block", {
     description = "Ambion block",
-    tiles = {"ambion_block.png"},
+    tiles = {"ambion_block.png"}
+    paramtype = "light",
+    light_source = 13,
     groups = {choppy = 3, oddly_breakable_by_hand = 1, flammable = 2},
 })
 minetest.register_craft({
@@ -36,6 +38,8 @@ minetest.register_craft({
 minetest.register_node("ambion:ambion_ore", {
     description = "Ambion ore",
     tiles = {"ambion_ore.png"},
+    paramtype = "light",
+    light_source = 14,
     groups = {choppy = 1, oddly_breakable_by_hand = 1, flammable = 2},
 })
 
