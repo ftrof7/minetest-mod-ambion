@@ -26,7 +26,7 @@ minetest.register_node("ambion:ambion_block", {
 
 minetest.register_node("ambion:ambion_ore", {
     description = "Ambion ore",
-    tiles = {"ambion_ore.png"},
+    tiles = {"default_stone^ambion_ore.png"},
     paramtype = "light",
     light_source = 8,
     drop = "ambion:ambion_lump",
